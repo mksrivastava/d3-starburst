@@ -11,80 +11,80 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    var chartData = {
+        var chartData = {
       "id": 1,
-      "name": "Aerospace and Defence",
+      "name": "Aero",
       "children": [
         {
           "id": 1,
-          "name": "Advanced Manufacturing",
+          "name": "Manufactur",
           "children": [
             {
               "id": 2,
-              "name": "3D Printing",
+              "name": "Print xyz pqr loading",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 6,
-              "name": "Bio-Printing",
+              "name": "Bio xyz pqr",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 3,
-              "name": "3D Ultrasonic Printing",
+              "name": "Ultra xyz pqr hello testing",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 8,
-              "name": "Molecular Assemblers",
+              "name": "Assemble xyz pqr",
               "maturation": "2040",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 7,
-              "name": "Bio-Reactors",
+              "name": "Reactor xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 1,
-              "name": "3D Holographic Printing",
+              "name": "Holo xyz pqr test",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 5,
-              "name": "Bio-Manufacturing",
+              "name": "Test xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 10,
-              "name": "Rapid Liquid Printing",
+              "name": "Rapid xyz pqr resume ed",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 9,
-              "name": "Nano-Manufacturing",
+              "name": "Nano xyz pqr leading testing",
               "maturation": "2045",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 4,
-              "name": "4D Printing",
+              "name": "Liquid xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
@@ -93,165 +93,165 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 2,
-          "name": "Biotech",
+          "name": "Tech",
           "children": [
             {
               "id": 16,
-              "name": "Cryogenics",
+              "name": "Genics xyz pqr test resume",
               "maturation": "2021",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 24,
-              "name": "Personalised Medicine",
+              "name": "Person xyz pqr hello",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 31,
-              "name": "Synthetic Stem Cells",
+              "name": "Stem xyz pqr",
               "maturation": "2024",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 11,
-              "name": "Anti Ageing Drugs",
+              "name": "Drugs xyz pqr loading",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 12,
-              "name": "Bioelectronic Medicine",
+              "name": "Aging xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 23,
-              "name": "Nano Medicine",
+              "name": "NMed xyz pqr hi",
               "maturation": "2025",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 32,
-              "name": "Tissue Engineering",
+              "name": "Tissue xyz pqr welcome",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 22,
-              "name": "Microbiome Medicine",
+              "name": "Biome xyz pqr",
               "maturation": "2030",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 29,
-              "name": "Smart Pills",
+              "name": "Smart xyz pqr hello",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 13,
-              "name": "Biological Teleporter",
+              "name": "Teleport xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 20,
-              "name": "Labs on Chips",
+              "name": "Chips xyz pqr service",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 18,
-              "name": "Gene Therapy",
+              "name": "Gene xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 17,
-              "name": "Gene Editing",
+              "name": "Edit xyz pqr testing lead",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 26,
-              "name": "Semi-Synthetic Organisms",
+              "name": "Synt xyz pqr load blance",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 21,
-              "name": "Medical Tricorder",
+              "name": "Tri xyz pqr",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 27,
-              "name": "Smart Drugs",
+              "name": "Smartd xyz pqr test balance",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 19,
-              "name": "Hi Resolution fMRI",
+              "name": "Hi MRI xyz pqr",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 33,
-              "name": "Tissue Nanotransfection",
+              "name": "Nanotrans xyz pqr new pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 30,
-              "name": "Synthetic Genes",
+              "name": "Syntnes xyz pqr leading",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 14,
-              "name": "Bionic Implants",
+              "name": "Biolants xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 25,
-              "name": "Regenerative Medicine",
+              "name": "Regene xyz pqr hello",
               "maturation": "2046",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 15,
-              "name": "Chimeras",
+              "name": "Chiras xyz pqr",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 28,
-              "name": "Smart Neuroprosthetics",
+              "name": "Netics xyz pqr hello zam",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 2
@@ -260,95 +260,95 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 3,
-          "name": "Digital Connectivity",
+          "name": "Digconn",
           "children": [
             {
               "id": 37,
-              "name": "LiFi",
+              "name": "Li xyz pqr testing new load",
               "maturation": "2029",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 41,
-              "name": "Nil Communication",
+              "name": "Nilcom xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 169,
-              "name": "6G",
+              "name": "2D xyz pqr testing",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 45,
-              "name": "WiGig",
+              "name": "Gig xyz pqr loading",
               "maturation": "2027",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 38,
-              "name": "Molecular Communications",
+              "name": "Cular xyz pqr hello",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 44,
-              "name": "Terabit Networks",
+              "name": "Tera xyz pqr",
               "maturation": "2038",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 40,
-              "name": "Nano Satellites",
+              "name": "Satel xyz pqr manufacture",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 42,
-              "name": "No Power WiFi",
+              "name": "WiFi xyz pqr",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 43,
-              "name": "Quantum Internet",
+              "name": "Quant xyz pqr new manufacture",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 36,
-              "name": "Interplanetary Internet",
+              "name": "planet xyz pqr market",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 39,
-              "name": "MulteFire",
+              "name": "Multe xyz pqr",
               "maturation": "2030",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 35,
-              "name": "High Altitude Platforms",
+              "name": "Altitude xyz pqr shoppling",
               "maturation": "2038",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 34,
-              "name": "Cognitive Radio",
+              "name": "Cognit xyz pqr development",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
@@ -361,154 +361,154 @@ export class AppComponent implements OnInit {
           "children": [
             {
               "id": 54,
-              "name": "Graphene Energy Systems",
+              "name": "Grap xyz pqr devops",
               "maturation": "2038",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 55,
-              "name": "Grid Scale Energy Storage",
+              "name": "Scale xyz pqr",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 51,
-              "name": "Electronic Blood",
+              "name": "Electron xyz pqr nothing",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 65,
-              "name": "Thorium Reactors",
+              "name": "Thor xyz pqr",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 60,
-              "name": "Photovoltaics",
+              "name": "Photovol xyz pqr elsiver",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 46,
-              "name": "Artificial Photosynthesis",
+              "name": "Artsynthesis xyz pqr down",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 53,
-              "name": "Fusion",
+              "name": "Fus xyz pqr up",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 66,
-              "name": "Travelling Wave Reactors",
+              "name": "TravelReac xyz pqr",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 61,
-              "name": "Plasma Drives",
+              "name": "PlasDriv xyz pqr hello world",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 48,
-              "name": "Biofuels",
+              "name": "Biofuel xyz pqr test test1",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 62,
-              "name": "Quark Energy",
+              "name": "QuaEng xyz pqr country",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 59,
-              "name": "Nanowire Batteries",
+              "name": "NanoBat xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 50,
-              "name": "Electromagnetic Drives",
+              "name": "Electro xyz pqr info",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 64,
-              "name": "Thin Film Batteries",
+              "name": "Film xyz pqr technology",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 58,
-              "name": "Nano Generators",
+              "name": "Nanrators xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 49,
-              "name": "Biomechanical Harvesting",
+              "name": "mechanical xyz pqr test",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 52,
-              "name": "Fuel Cells",
+              "name": "Cells xyz pqr computer",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 47,
-              "name": "Backscatter Energy Systems",
+              "name": "Energy xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 63,
-              "name": "Thermoelectric Drives",
+              "name": "Electric xyz pqr electronics",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 57,
-              "name": "Molecular Energy Systems",
+              "name": "Molectems xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 67,
-              "name": "Wireless Energy",
+              "name": "Wireenergy xyz pqr mech",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 56,
-              "name": "Lithium Air Batteries",
+              "name": "Li xyz pqr random",
               "maturation": "2030",
               "association": "DIRECT",
               "impact": 3
@@ -517,39 +517,39 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 5,
-          "name": "Geoengineering",
+          "name": "Geo",
           "children": [
             {
               "id": 72,
-              "name": "Terraforming",
+              "name": "Terr xyz pqr new tech",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 71,
-              "name": "Desalination Systems",
+              "name": "Desa xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 70,
-              "name": "Climate Engineering",
+              "name": "Cliering xyz pqr new way",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 68,
-              "name": "Archologies",
+              "name": "Arch xyz pqr",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
             },
             {
               "id": 69,
-              "name": "Carbon Sequestration",
+              "name": "Cartration xyz pqr hight",
               "maturation": "2050",
               "association": "NONE",
               "impact": 0
@@ -558,165 +558,165 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 6,
-          "name": "Machine Systems",
+          "name": "Mach Systems",
           "children": [
             {
               "id": 77,
-              "name": "Chemical Computing",
+              "name": "Checomput xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 79,
-              "name": "Cognitive Computing",
+              "name": "Naitive xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 75,
-              "name": "Artificial Intelligence",
+              "name": "Artigence xyz pqr low",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 90,
-              "name": "Photonic Computing",
+              "name": "Tonic C xyz pqr test",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 91,
-              "name": "Quantum Computing",
+              "name": "Tum Compute xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 82,
-              "name": "Decentralised Computing",
+              "name": "Decent Comput xyz pqr testing",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 78,
-              "name": "Codeless Computing",
+              "name": "Less Comput xyz pqr nice",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 93,
-              "name": "Smart Dust",
+              "name": "Smadust xyz pqr",
               "maturation": "2038",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 74,
-              "name": "Affective Computing",
+              "name": "Affcomp xyz pqr implementation",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 73,
-              "name": "3D Chips",
+              "name": "Lays xyz pqr understanding",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 95,
-              "name": "Minerless Blockchain",
+              "name": "Minerchain xyz pqr run",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 85,
-              "name": "Liquid Computing",
+              "name": "Next xyz pqr fast",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 92,
-              "name": "Reconfigurable Electronics",
+              "name": "Figurables xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 94,
-              "name": "Swarm Intelligence",
+              "name": "Sligence xyz pqr fact",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 88,
-              "name": "Molecular Computing",
+              "name": "Moting xyz pqr load test",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 84,
-              "name": "Fog Computing",
+              "name": "Foging xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 83,
-              "name": "DNA Computing",
+              "name": "LMA Computing  xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 76,
-              "name": "Blockchain",
+              "name": "Block xyz pqr load balance",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 87,
-              "name": "Micromotes",
+              "name": "Motes xyz pqr",
               "maturation": "2028",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 80,
-              "name": "Containerisation",
+              "name": "Container xyz pqr",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 89,
-              "name": "Neuromorphic Computing",
+              "name": "Neuro xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 81,
-              "name": "Creative Machines",
+              "name": "Creat xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 86,
-              "name": "Machine Vision",
+              "name": "Vision xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
@@ -725,18 +725,18 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 7,
-          "name": "Materials",
+          "name": "Mat",
           "children": [
             {
               "id": 112,
-              "name": "Room Temperature Superconductors",
+              "name": "Room xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 110,
-              "name": "Quantum Materials",
+              "name": "Tum Materials xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
@@ -750,126 +750,126 @@ export class AppComponent implements OnInit {
             },
             {
               "id": 113,
-              "name": "Self-Healing Materials",
+              "name": "Healing Materials",
               "maturation": "2038",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 106,
-              "name": "Nanophotonic Materials",
+              "name": "Nc Materials xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 102,
-              "name": "Mega Magnets",
+              "name": "Megnets xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 104,
-              "name": "Nano Materials",
+              "name": "Naials xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 100,
-              "name": "Liquid Armour",
+              "name": "Limour  xyz pqr",
               "maturation": "2027",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 114,
-              "name": "Smart Materials",
+              "name": "Smials xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 97,
-              "name": "Bio-Materials",
+              "name": "Bials xyz pqr",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 101,
-              "name": "Living Metals",
+              "name": "Lials xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 105,
-              "name": "Nano-Ceramics",
+              "name": "Namics xyz pqr",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 109,
-              "name": "Programmable Matter",
+              "name": "Progtter xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 96,
-              "name": "Atomic Knots",
+              "name": "Atom xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 115,
-              "name": "Spray On Materials",
+              "name": "Spray xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 108,
-              "name": "Polymers",
+              "name": "Polys xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 111,
-              "name": "Reactive Materials",
+              "name": "Tive Mat  xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 98,
-              "name": "Flexible Electronics",
+              "name": "Flex Elect xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 107,
-              "name": "Nanotubes",
+              "name": "Tubes xyz pqr",
               "maturation": "2027",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 99,
-              "name": "Graphene",
+              "name": "Graph xyz pqr",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 116,
-              "name": "Vascularised Nanocomposites",
+              "name": "Vasculposites xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
@@ -878,81 +878,81 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 8,
-          "name": "Robotics",
+          "name": "Robo",
           "children": [
             {
               "id": 122,
-              "name": "Molecular Robots",
+              "name": "Molecular xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 126,
-              "name": "Swarm Robotics",
+              "name": "Swar xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 119,
-              "name": "Co-Bots",
+              "name": "Cobots xyz pqr",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 125,
-              "name": "Soft Robots",
+              "name": "Sof xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 120,
-              "name": "Drones",
+              "name": "Dro xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 121,
-              "name": "Exo Suits",
+              "name": "Suits xyz pqr",
               "maturation": "2035",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 127,
-              "name": "Utility Fog",
+              "name": "Fog xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 117,
-              "name": "Biohybrid Robots",
+              "name": "Biobrid xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 124,
-              "name": "Robots",
+              "name": "Rotic xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 118,
-              "name": "Bots",
+              "name": "Bgts xyz pqr",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 123,
-              "name": "Nano Robots",
+              "name": "Namo xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
@@ -961,88 +961,88 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 9,
-          "name": "Security",
+          "name": "Secure",
           "children": [
             {
               "id": 132,
-              "name": "Hackproof Code",
+              "name": "roof Code xyz pqr",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 129,
-              "name": "Behaviour Based Security",
+              "name": "Based Secu xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 135,
-              "name": "Morpheus Computing Platform",
+              "name": "Morform xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 131,
-              "name": "DNA Encryption",
+              "name": "Eryption xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 133,
-              "name": "High Assurance Platforms",
+              "name": "Assurance xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 130,
-              "name": "Biometrics",
+              "name": "Bics xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 134,
-              "name": "Identity Based Encryption",
+              "name": "Identcryption xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 136,
-              "name": "One Time Programs",
+              "name": "Onegrams xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 138,
-              "name": "Quantum Cryptography",
+              "name": "Quantgraphy xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 137,
-              "name": "Post Quantum Cryptography",
+              "name": "Postography xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 128,
-              "name": "Artificial Immune Systems",
+              "name": "Artitems xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 139,
-              "name": "Self Patching Systems",
+              "name": "Sel System xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
@@ -1051,88 +1051,88 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 10,
-          "name": "Sensors",
+          "name": "Senrs",
           "children": [
             {
               "id": 143,
-              "name": "Electromyography Sensors",
+              "name": "Fraphy xyz pqr",
               "maturation": "2027",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 140,
-              "name": "Backscatter Sensors",
+              "name": "Backs xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 147,
-              "name": "Micro Electro-Mechanical Sensors",
+              "name": "Micro xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 142,
-              "name": "Biosensors",
+              "name": "Bisors xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 151,
-              "name": "Quantum Sensors",
+              "name": "Quantors xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 149,
-              "name": "Multispectral Sensors",
+              "name": "Multinsors xyz pqr",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 146,
-              "name": "Hyperspectral Sensors",
+              "name": "Hypersors xyz pqr",
               "maturation": "2032",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 145,
-              "name": "Graphene Sensors",
+              "name": "Graph xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 141,
-              "name": "Biometric Sensors",
+              "name": "Biome xyz pqr",
               "maturation": "2037",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 144,
-              "name": "Electrophoresis Sensors",
+              "name": "Elects xyz pqr",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 150,
-              "name": "Nano Electromechanical Sensors",
+              "name": "Naors xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 148,
-              "name": "Molybdenite Sensors",
+              "name": "Mosors xyz pqr",
               "maturation": "2026",
               "association": "DIRECT",
               "impact": 3
@@ -1141,123 +1141,123 @@ export class AppComponent implements OnInit {
         },
         {
           "id": 11,
-          "name": "User Interface",
+          "name": "Use face",
           "children": [
             {
               "id": 167,
-              "name": "Ultra High Definition Rendering",
+              "name": "Ultring xyz pqr",
               "maturation": "2028",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 158,
-              "name": "Hapatics",
+              "name": "Hapa xyz pqr",
               "maturation": "2034",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 164,
-              "name": "Personal Digital Assistants",
+              "name": "Pers stants xyz pqr",
               "maturation": "2036",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 165,
-              "name": "Screenless Displays",
+              "name": "Screens xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 160,
-              "name": "Naked Eye 3D",
+              "name": "Naked xyz pqr",
               "maturation": "2030",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 155,
-              "name": "Avatars",
+              "name": "Avars xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 152,
-              "name": "11K Displays",
+              "name": "Lsplays xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 1
             },
             {
               "id": 168,
-              "name": "Virtual Reality",
+              "name": "Virlity xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 166,
-              "name": "Touch",
+              "name": "Toch xyz pqr",
               "maturation": "2029",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 162,
-              "name": "Natural Language Translation",
+              "name": "Nalation xyz pqr",
               "maturation": "2031",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 163,
-              "name": "Neural Interfaces",
+              "name": "Nefaces xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 159,
-              "name": "Holograms",
+              "name": "Holo xyz pqr",
               "maturation": "2050",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 153,
-              "name": "360 Degree Video",
+              "name": "Degree xyz pqr",
               "maturation": "2028",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 154,
-              "name": "Augmented Reality",
+              "name": "Reality xyz pqr",
               "maturation": "2033",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 156,
-              "name": "Far Field Microphones",
+              "name": "Microphones xyz pqr",
               "maturation": "2028",
               "association": "DIRECT",
               "impact": 2
             },
             {
               "id": 157,
-              "name": "Gesture Control",
+              "name": "Ge Control xyz pqr",
               "maturation": "2024",
               "association": "DIRECT",
               "impact": 3
             },
             {
               "id": 161,
-              "name": "Natural Language",
+              "name": "Natage xyz pqr",
               "maturation": "2027",
               "association": "DIRECT",
               "impact": 3
@@ -1268,17 +1268,17 @@ export class AppComponent implements OnInit {
     };
 
     var colors = {
-      "Advanced Manufacturing": "#d30000",
-      "Biotech": "#ed5b00",
-      "Digital Connectivity": "#ff8a00",
+      "Manufactur": "#d30000",
+      "Tech": "#ed5b00",
+      "Digconn": "#ff8a00",
       "Energy": "#a5be00",
-      "Geoengineering": "#007600",
-      "Machine Systems": "#00a9e8",
-      "Materials": "#006395",
-      "Robotics": "#8d6fff",
-      "Security": "#77005c",
-      "Sensors": "#c56290",
-      "User Interface": "#a9004f"
+      "Geo": "#007600",
+      "Mach Systems": "#00a9e8",
+      "Mat": "#006395",
+      "Robo": "#8d6fff",
+      "Secure": "#77005c",
+      "Senrs": "#c56290",
+      "Use face": "#a9004f"
     };
     // Dimensions of starburst.
     var width = 800;
