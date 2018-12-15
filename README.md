@@ -7,5 +7,5 @@ On hover of second level category’s name or on a bubble, details of category d
 ***
 ![alt text](https://github.com/mksrivastava/d3-starburst/blob/master/img/chart.PNG)
 
-
+***NOTE: This requires d3 version 3.
 
