@@ -4,6 +4,7 @@ However, a starburst chart with two levels of categories shows how the redial ri
 In starburst, we have various concentric rings over the first level of a category which actually split the first level of a category in the period of 5 years. Year circle starts from given minimum year range up to 20 years.
 So if any category falls outside of upper range the bubble will plot after the outer most ring and if category falls outside of lower range then the bubble will plot near to innermost ring.
 On hover of second level category’s name or on a bubble, details of category displays in the center of charts.
+---
 ![alt text](https://github.com/mksrivastava/d3-starburst/blob/master/img/chart.PNG)
 
 
