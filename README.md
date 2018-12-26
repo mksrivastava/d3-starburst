@@ -8,7 +8,7 @@ On hover of second level category’s name or on a bubble, details of category d
 This component is based on [an example](https://bl.ocks.org/kerryrodden/7090426) by [Kerry Rodden](https://bl.ocks.org/kerryrodden), who based his on an interactive [D3 sunburst visualization](http://bl.ocks.org/mbostock/4063423).
 
 ***
-<div style="display:block;text-align:center;border:1px solid">![alt text](https://github.com/mksrivastava/d3-starburst/blob/master/img/chart.PNG)</div>
+<div style="align:center;border:1px solid">![alt text](https://github.com/mksrivastava/d3-starburst/blob/master/img/chart.PNG)</div>
 
 
 ***
