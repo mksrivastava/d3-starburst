@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-        var chartData = {
+    var chartData = {
       "id": 1,
       "name": "Aero",
       "children": [
@@ -1322,7 +1322,7 @@ export class AppComponent implements OnInit {
 
     //start rendering   
     generateStarBurst(chartData);
-    
+
     // Main function to draw graph and set up the visualization, once we have the data.
     function generateStarBurst(json) {
 
@@ -1391,6 +1391,27 @@ export class AppComponent implements OnInit {
         .text(function (d) { return d.depth == 2 ? "-" + d.name.toUpperCase() : ""; })
         .on("mouseover", mouseover)
         .on("mouseleave", mouseleave);
+
+      var categoryText = vis.selectAll("categoryText")
+        .data(nodes)
+        .enter().append("text")
+        .style("fill", "#fff")
+        .style("font-size", "12px")
+        .attr("dy", function (d) { return "11" }) //Move the text down
+        .append("textPath")
+        .attr("xlink:href", function (d, i) { return "#" + d.name; })
+        .attr("startOffset", function (d) {
+          return "05%";
+        })
+        .text(function (d) {
+          var name;
+          if (d.depth == 1) {
+            name = d.name;
+          } else {
+            name = "";
+          }
+          return name.toUpperCase();
+        });
 
 
       var techCircle = vis.selectAll("techCircle")
